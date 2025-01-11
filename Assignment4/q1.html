@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User login and Password Reset</legend>
+        <form>
+        <label for="n">Full name</label><br>
+        <input id="n" name="n" type="text" placeholder="Enter your full name" required><br><br>
+        <label for="password">Password</label><br>
+        <input id="password" name="password" type="password" placeholder="Enter your password" required><br><br>
+        <button type="button" onclick="Sumbit">LOGIN</button><br>
+        <button type="button"><a href="#reset">Forget Password?</a></button>
+        </form>
+    </fieldset>
+    <fieldset id="reset">
+        <form>
+        <legend>User login and Password Reset</legend>
+        <label for="Email">Email</label><br>
+        <input id="Email" name="Email" type="email" placeholder="example@gamil.com" required><br><br>
+        <label for="password">New Password</label><br>
+        <input id="password" name="password" type="password" placeholder="Enter your password" min="10" max="20" required><br><br>
+        <label for="cpassword">Confirm Password</label><br>
+        <input id="cpassword" name="cpassword" type="password" placeholder="Enter your password" min="10" max="20" required><br><br>
+        <button type="button" onclick="Sumbit">RESET</button><br>
+        </form>
+    </fieldset>
+</body>
+</html>

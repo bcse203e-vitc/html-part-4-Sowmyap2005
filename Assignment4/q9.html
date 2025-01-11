@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Travel Booking</legend>
+        <label for="name">Name</label><br>
+        <input id="name" name="name" type="text" placeholder="Enter your full name"><br><br>
+        <label for="cont">Contact info</label><br>
+        <input id="cont" name="cont" type="text" placeholder="Enter your mobile number" pattern="[0-9]{10}"><br><br>
+        <input id="cont" name="cont" type="email" placeholder="example@gmail.com" ><br><br>
+
+        <label for="fdate">Check-in-Date</label><br>
+        <input id="fdate" name="fdate" type="date"><br><br>
+        <label for="tdate">Check-out-Date</label><br>
+        <input id="tdate" name="tdate" type="date"><br><br>
+        <label for="ntravel">Number of Guests</label><br>
+        <input id="ntravel" name="ntravel" type="number" placeholder="Enter number of Guests"><br><br>
+        <label for="Roomtype">Room type</label><br>
+        <input type="radio" id="Single" name="Roomtype">
+        <label for="Single">Single</label><br>
+        <input type="radio" id="Double" name="Roomtype">
+        <label for="Double">Double</label><br>
+        <input type="radio" id="Suite" name="Roomtype">
+        <label for="Suite">Suite</label><br><br>
+        <label for="additional">ADDITIONAL SERVICES</label><br>
+        <input type="checkbox" id="Breakfast" name="additional">
+        <label for="Breakfast">Breakfast</label><br>
+        <input type="checkbox" id="AirportPickup" name="additional">
+        <label for="AirportPickup">Airport Pickup</label><br><br>
+        <label for="total">TOTAL COST</label>
+        <input id="total" name="total" placeholder="TOTAL COST" readonly>
+        <button type="botton" onclick="Submitted">SUBMIT</button>
+    </fieldset>
+</body>
+</html>
