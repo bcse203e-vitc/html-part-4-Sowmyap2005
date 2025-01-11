@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration form</legend>
+        <form>
+            <br>
+            <label for="n">Full name</label><br>
+            <input id="n" name="n" type="text" placeholder="Enter your full name"><br><br>
+            <label for="em">E-mail</label><br>
+            <input id="em" name="em" type="email" placeholder="example@gmail.com"><br><br>
+            <label for="pn">Phone Number</label><br>
+            <input id="pn" name="pn" type="text" pattern="[0-9]{10}"><br><br>
+            <label for="gen">GENDER</label><br>
+            <input id="m" name="gen" type="radio">
+            <label for="m">Male</label><br><br>
+            <input id="f" name="gen" type="radio">
+            <label for="f">Female</label><br><br>
+            <label for="age">Age Group</label>
+            <select id="age" name="age">
+                <option value="1">1-15</option>
+                <option value="2">16-30</option>
+                <option value="3">31-50</option>
+                <option value="4">51-75</option>
+            </select><br>
+            <br>
+            <label for="Topic">Topics of Interest</label><br><br>
+            <input id="Art" name="Art" type="checkbox">
+            <label for="Art">Art</label><br>
+            <input id="Music" name="Music" type="checkbox">
+            <label for="Music">Music</label><br>       
+            <input id="Sports" name="Sports" type="checkbox">
+            <label for="Sports">Sports</label><br>
+            <input id="Science" name="Science" type="checkbox">
+            <label for="Science">Science</label><br><br>
+            <textarea rows="10" cols="10">Additional comments</textarea><br><br>
+
+            <button type="botton" onclick="Submitted">SUBMIT</button>
+
+        </form>
+    </fieldset>
+</body>
+</html>
